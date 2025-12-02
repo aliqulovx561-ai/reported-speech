@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/submit-report.js": {
+      "maxDuration": 10,
+      "memory": 256
+    }
+  },
+  "rewrites": [
+    {
+      "source": "/api/submit-report",
+      "destination": "/api/submit-report.js"
+    }
+  ]
+}
